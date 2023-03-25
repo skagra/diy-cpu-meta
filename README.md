@@ -16,7 +16,7 @@ The DIY CPU project began as a learning exercise in digital electronics, with go
   * A microcode assembler capable of converting a custom symbolic micro-code language into microcode ROMs and decoding ROMs.
   * Micro-code implementing almost all of the 6502 instruction set which runs on the emulated CPU.
   * Microcode implementing a subset of the 6502 instruction set which runs on the emulation simplified CPU and the equivalent physical hardware.
-  * **This project will soon be broken** up into 3 repositories for the full design with microcode, the simplified design with microcode and the micro-code assembler.
+  * **This project will soon be broken** up into 3 repositories; the full design with microcode, the simplified design with microcode and the microcode assembler.
 
 * [DIY CPU Controller](https://github.com/skagra/diy-cpu-controller) - A micro controller based control unit and debugger for the Diy CPU.   This will eventually be replaced, according to the design, the the physical hardware with a `74HC` based circuit.
 
@@ -35,3 +35,24 @@ The DIY CPU project began as a learning exercise in digital electronics, with go
 * [atmega328-programmer](https://github.com/skagra/atmega328-programmer) - A programmer and prototyping tool for Atmega 328 microcontrollers. 
 
 * [i2c Detect](https://github.com/skagra/i2c-detect) - An Arduino sketch to scan for attached i2c devices and to display their respective addresses.
+
+# Tools
+
+Here's short list of the tools used across these related projects.
+
+* [Digital](https://github.com/hneemann/Digital) - Digital is an easy-to-use digital logic designer and circuit simulator.
+* [Fritzing](https://fritzing.org/) - A simple circuit design applications for schematics, breadboards and PCBs.
+* [Visual Studio Code](https://code.visualstudio.com/) - A flexible IDE, together with the following plugins:
+  * Visual Studio Code extension for Arduino
+  * C/C++ (Microsoft)
+  * C# (Microsoft)
+  * CMake (Microsoft)
+  * Dasm macro assembler for VSCode
+* [Dasm assembler](https://dasm-assembler.github.io/) - To build 6502 assembly language.
+* [Dotnet SDK](https://dotnet.microsoft.com/en-us/download) - C# is used for various tools including the microcode assembler.
+* [CMake](https://cmake.org/) - A `make` implementation.
+
+# Datasheets and Documentation
+
+Various related datasheets are documentation is collected [here](docs) for ease of reference.
+
