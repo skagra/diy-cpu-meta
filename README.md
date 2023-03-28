@@ -10,13 +10,18 @@ The DIY CPU project began as a learning exercise in digital electronics, with go
 
 # Core Projects
 
-* [DIY CPU](https://github.com/skagra/diy-cpu) - This the main project.  It contains:
-  * Design and emulations using generic components of almost full 6502 equivalent together with a simplified version.
-  * Realizations of those designs using `74HC` series of ICs.
-  * A microcode assembler capable of converting a custom symbolic micro-code language into microcode ROMs and decoding ROMs.
-  * Micro-code implementing almost all of the 6502 instruction set which runs on the emulated CPU.
-  * Microcode implementing a subset of the 6502 instruction set which runs on the emulation simplified CPU and the equivalent physical hardware.
-  * **This project will soon be broken** up into 3 repositories; the full design with microcode, the simplified design with microcode and the microcode assembler.
+* [DIY CPU](https://github.com/skagra/diy-cpu) - This original DIY CPU project.  The repository contains:
+  * Design and emulations using generic components of an almost fully 6502-equivalent CPU.
+  * Realizations and emulations of those designs using `74HC` series of ICs.
+  * μcode implementing almost all of the 6502 instruction set which runs on the emulated CPU.
+
+* [DIY CPY Simplified](https://github.com/skagra/diy-cpu-simplified) - A simplified version of the DIY CPU which is being implemented in physical hardware.  The repository contains:
+  * Design and emulations using generic components of a simplified CPU.
+  * Realizations and emulations of those designs using `74HC` series of ICs.
+  * Microcode implementing a subset of the 6502 instruction set which runs on both the emulated and the physical simplified CPU.
+  * Hardware desiigns.
+
+* [DIY CPU μcode Assembler](https://github.com/skagra/diy-cpu-uc-assembler) - A μcode assembler capable of which processes symbolic μcode to create binary μcode ROMs and decoding ROMs.
 
 * [DIY CPU Controller](https://github.com/skagra/diy-cpu-controller) - A micro controller based control unit and debugger for the Diy CPU.   This will eventually be replaced, according to the design, the the physical hardware with a `74HC` based circuit.
 
