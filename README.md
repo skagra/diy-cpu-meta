@@ -53,7 +53,7 @@ Here's short list of the tools used across these related projects.
   * C# (Microsoft)
   * CMake (Microsoft)
   * Dasm macro assembler for VSCode
-* [Dasm assembler](https://dasm-assembler.github.io/) - To build 6502 assembly language.
+* [Dasm assembler](https://dasm-assembler.github.io/) - a 6502 cross-assembler.
 * [Dotnet SDK](https://dotnet.microsoft.com/en-us/download) - C# is used for various tools including the microcode assembler.
 * [CMake](https://cmake.org/) - A `make` implementation.
 
