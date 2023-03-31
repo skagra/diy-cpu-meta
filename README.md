@@ -15,7 +15,7 @@ The DIY CPU project began as a learning exercise in digital electronics, with go
   * Realizations and emulations of those designs using `74HC` series of ICs.
   * μcode implementing almost all of the 6502 instruction set which runs on the emulated CPU.
 
-* [DIY CPY Simplified](https://github.com/skagra/diy-cpu-simplified) - A simplified version of the DIY CPU which is being implemented in physical hardware.  The repository contains:
+* [DIY CPU Simplified](https://github.com/skagra/diy-cpu-simplified) - A simplified version of the DIY CPU which is being implemented in physical hardware.  The repository contains:
   * Design and emulations using generic components of a simplified CPU.
   * Realizations and emulations of those designs using `74HC` series of ICs.
   * Microcode implementing a subset of the 6502 instruction set which runs on both the emulated and the physical simplified CPU.
