@@ -6,7 +6,7 @@ The DIY CPU project began as a learning exercise in digital electronics, with go
 * Implement and validate the design in a digital circuit simulator.
 * Implement the design physically, primarily using the `74HC` series of ICs.
 
-It consists of the following projects:
+While maintaining its original theme, the project has evolved into the following:
 
 # Core Projects
 
